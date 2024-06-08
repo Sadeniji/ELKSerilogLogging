@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingLibrary", "LoggingLibrary\LoggingLibrary.csproj", "{60701043-D3BF-463B-A22B-63117F639535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELKSerilogLogging.Api", "ELKSerilogLogging.Api\ELKSerilogLogging.Api.csproj", "{319CB76A-39F5-44C9-933F-B0FF997273BB}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8F5DD4B1-A81D-4C72-ADC6-184A99D75776}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60701043-D3BF-463B-A22B-63117F639535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60701043-D3BF-463B-A22B-63117F639535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60701043-D3BF-463B-A22B-63117F639535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60701043-D3BF-463B-A22B-63117F639535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319CB76A-39F5-44C9-933F-B0FF997273BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319CB76A-39F5-44C9-933F-B0FF997273BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319CB76A-39F5-44C9-933F-B0FF997273BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319CB76A-39F5-44C9-933F-B0FF997273BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F5DD4B1-A81D-4C72-ADC6-184A99D75776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5DD4B1-A81D-4C72-ADC6-184A99D75776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5DD4B1-A81D-4C72-ADC6-184A99D75776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5DD4B1-A81D-4C72-ADC6-184A99D75776}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73165C78-F4CE-4C5F-8171-234C70F59CAE}
+	EndGlobalSection
+EndGlobal
